@@ -1,0 +1,25 @@
+@import "tailwindcss";
+body{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn-num{
+  @apply bg-gray-600 text-white rounded-4xl w-15 h-15 p-2 hover:bg-gray-700 active:scale-95 transition border-0 font-bold
+}
+.btn-op{
+  @apply bg-gray-800 text-white rounded-4xl w-15 h-15 p-2 hover:bg-gray-700 active:scale-95 transition border-0 font-bold text-2xl
+}
+.btn-eq{
+  @apply bg-green-500 text-white rounded-4xl w-15 h-15 p-2 hover:bg-green-400 active:scale-95 transition border-0 font-bold text-2xl
+}
+.btn-top{
+  @apply bg-gray-900 text-white rounded-4xl w-15 h-15 p-2 hover:bg-gray-700 active:scale-95 transition border-0 font-bold text-2xl
+}
+.btn-del{
+  @apply bg-red-600 text-white rounded-4xl w-15 h-15 p-2 hover:bg-red-500 active:scale-95 transition border-0 font-bold
+}
